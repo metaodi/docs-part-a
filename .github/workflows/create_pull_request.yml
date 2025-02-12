@@ -39,7 +39,7 @@ jobs:
           branch: 'docs-a-update'
           base: 'main'
           draft: false
-          assignees: metaodi, mchaamsler
+          assignees: mchaamsler
           
       - name: Check outputs
         if: ${{ steps.cpr.outputs.pull-request-number }}
